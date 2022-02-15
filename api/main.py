@@ -7,8 +7,9 @@ import uvicorn
 DESC_TEXT = "Face Verification Test"
 
 app = FastAPI(
-    title='Face Verification Benchmark',
-    description=DESC_TEXT,
+    title='Face Verification API',
+    version="0.0.1",
+    description=DESC_TEXT
 )
 
 app.add_middleware(
